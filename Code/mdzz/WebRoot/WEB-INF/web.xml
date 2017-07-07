@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>MyFirstServlet</servlet-name>
+    <servlet-class>servlet.MyFirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyFirstServlet</servlet-name>
+    <url-pattern>/MyFirstServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>MyFirstServlet2</servlet-name>
+    <servlet-class>servlet.MyFirstServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyFirstServlet2</servlet-name>
+    <url-pattern>/MyFirstServlet2</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ErrorHandler</servlet-name>
+    <servlet-class>servlet.ErrorHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ErrorHandler</servlet-name>
+    <url-pattern>/ErrorHandler</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>OptionServlet</servlet-name>
+    <servlet-class>servlet.OptionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OptionServlet</servlet-name>
+    <url-pattern>/OptionServlet</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/RegistServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Myservlet</servlet-name>
+    <servlet-class>servlet.Myservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Myservlet</servlet-name>
+    <url-pattern>/Myservlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ShopingServlet</servlet-name>
+    <servlet-class>servlet.ShopingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShopingServlet</servlet-name>
+    <url-pattern>/ShopingServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ZhuCeServlet</servlet-name>
+    <servlet-class>servlet.ZhuCeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZhuCeServlet</servlet-name>
+    <url-pattern>/ZhuCeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>page.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
